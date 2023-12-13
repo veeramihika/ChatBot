@@ -1,0 +1,76 @@
+ use Footwear; // name of the database
+db.createCollection('footwear') // new collection named as footwear
+\\ now we can do CRUD operations on this database and this collection 
+
+> db.footwear.find().pretty();
+{
+        "_id" : ObjectId("609d09a54eeed71eb09ddf3a"),
+        "pid" : "100",
+        "Brand" : "Inch 5",
+        "category" : "Heels",
+        "size" : "36",
+        "stock" : "50",
+        "cp" : "1500",
+        "sp" : "1700"
+}
+{
+        "_id" : ObjectId("60c8cc3cfeeda4c01941a251"),
+        "pid" : "101",
+        "Brand" : "Inch 5",
+        "category" : "Flats",
+        "size" : "37",
+        "stock" : "60",
+        "cp" : "600",
+        "sp" : "800"
+}
+{
+        "_id" : ObjectId("60c8ccd6feeda4c01941a253"),
+        "pid" : "103",
+        "Brand" : "Bata",
+        "category" : "Flip Flops",
+        "size" : "36",
+        "stock" : "50",
+        "cp" : "300",
+        "sp" : "399"
+}
+> db.footwear.find().pretty();
+{
+        "_id" : ObjectId("609d09a54eeed71eb09ddf3a"),
+        "pid" : "100",
+        "Brand" : "Inch 5",
+        "category" : "Heels",
+        "size" : "36",
+        "stock" : "50",
+        "cp" : "1500",
+        "sp" : "1700"
+}
+{
+        "_id" : ObjectId("60c8cc3cfeeda4c01941a251"),
+        "pid" : "101",
+        "Brand" : "Inch 5",
+        "category" : "Flats",
+        "size" : "37",
+        "stock" : "60",
+        "cp" : "600",
+        "sp" : "800"
+}
+{
+        "_id" : ObjectId("60c8ccd6feeda4c01941a253"),
+        "pid" : "102",
+        "Brand" : "Bata",
+        "category" : "Flip Flops",
+        "size" : "36",
+        "stock" : "50",
+        "cp" : "300",
+        "sp" : "399"
+}
+{
+        "_id" : ObjectId("60c8d089de5cd40d30f11204"),
+        "pid" : "103",
+        "Brand" : "Cat Walk",
+        "category" : "Wedges",
+        "size" : "38",
+        "stock" : "40",
+        "cp" : "1000",
+        "sp" : "1100"
+}
